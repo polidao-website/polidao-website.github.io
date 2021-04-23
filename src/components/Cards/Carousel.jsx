@@ -24,7 +24,7 @@ export default function SimpleSlider() {
   const items = [
     {
       id: 1,
-      icon: <Car color="#2643e9" />,
+      icon: <Car color="#2743e9" />,
       title: 'Restauração de Rodas',
       color: 'primary',
       text: 'Conserto, solda e pintura em roda de liga-leve em geral.',
@@ -156,7 +156,7 @@ export default function SimpleSlider() {
     infinite: true,
     slidesToShow: slideSize,
     slidesToScroll: slideSize,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 5000,
   }
 
